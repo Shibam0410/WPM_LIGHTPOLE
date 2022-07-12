@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite  name="Suite" parallel="false" >
+  <test name="WPM_LIGHTPOLES_SANITYTESTING" preserve-order="true">
+    <parameter name="browser" value="chrome" />
+    <classes>
+         <!-- <class name="lightpole.testcases.DDT_TestCase"/> 
+         <class name="lightpole.testcases.TakeFullScreenshot"/> -->
+         <class name="lightpole.testcases.LoginTestCase"/> 
+         <class name="lightpole.testcases.SignUp_ForgotPassword_TestCase"/> 
+         <class name="lightpole.testcases.HighPriorityTestCase"/>  
+         <class name="lightpole.testcases.EditUserTestCase"/>
+         <class name="lightpole.testcases.MaintainerTestCase"/>
+         <class name="lightpole.testcases.DownloadReport"/> 
+    </classes>
+  </test> 
+</suite> 
+		

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="251330" started-at="2022-07-11T11:11:40 IST" finished-at="2022-07-11T11:15:51 IST">
+    <groups>
+    </groups>
+    <test name="WPM_LIGHTPOLES_SANITYTESTING" duration-ms="251330" started-at="2022-07-11T11:11:40 IST" finished-at="2022-07-11T11:15:51 IST">
+      <class name="lightpole.testcases.DownloadReport">
+        <test-method status="PASS" signature="LaunchApplication(java.lang.String)[pri:0, instance:lightpole.testcases.DownloadReport@4eb7f003]" name="LaunchApplication" is-config="true" duration-ms="8409" started-at="2022-07-11T11:11:40 IST" finished-at="2022-07-11T11:11:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method status="PASS" signature="ReportDownload()[pri:1, instance:lightpole.testcases.DownloadReport@4eb7f003]" name="ReportDownload" duration-ms="32177" started-at="2022-07-11T11:11:48 IST" finished-at="2022-07-11T11:12:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportDownload -->
+        <test-method status="PASS" signature="About_Link()[pri:2, instance:lightpole.testcases.DownloadReport@4eb7f003]" name="About_Link" duration-ms="4765" started-at="2022-07-11T11:12:20 IST" finished-at="2022-07-11T11:12:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About_Link -->
+        <test-method status="PASS" signature="DownloadReport_Priority()[pri:3, instance:lightpole.testcases.DownloadReport@4eb7f003]" name="DownloadReport_Priority" duration-ms="48597" started-at="2022-07-11T11:12:25 IST" finished-at="2022-07-11T11:13:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadReport_Priority -->
+        <test-method status="PASS" signature="Representative_Condition()[pri:4, instance:lightpole.testcases.DownloadReport@4eb7f003]" name="Representative_Condition" duration-ms="85775" started-at="2022-07-11T11:13:14 IST" finished-at="2022-07-11T11:14:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Representative_Condition -->
+        <test-method status="PASS" signature="DownloadReport_Allschool()[pri:5, instance:lightpole.testcases.DownloadReport@4eb7f003]" name="DownloadReport_Allschool" duration-ms="69418" started-at="2022-07-11T11:14:40 IST" finished-at="2022-07-11T11:15:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadReport_Allschool -->
+        <test-method status="PASS" signature="Quit()[pri:0, instance:lightpole.testcases.DownloadReport@4eb7f003]" name="Quit" is-config="true" duration-ms="1929" started-at="2022-07-11T11:15:49 IST" finished-at="2022-07-11T11:15:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- lightpole.testcases.DownloadReport -->
+    </test> <!-- WPM_LIGHTPOLES_SANITYTESTING -->
+  </suite> <!-- Suite -->
+</testng-results>
